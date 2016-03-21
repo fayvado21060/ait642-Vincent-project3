@@ -24,7 +24,9 @@ public class Rectangle {
 	 * Gets the area.
 	 *
 	 * @return the area
-	 */
+	 *     
+	 *   /
+	
 	public Double getArea() {
 		return Math.abs((p2.width - p1.width) * (p2.length - p1.length));
 	}

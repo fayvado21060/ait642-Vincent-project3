@@ -5,8 +5,8 @@ package edu.towson.cis.cosc603.project4.rectangle;
  */
 public class Point {
 	
-	/** width and length coordinates. */
-	public Double width, length;
+	/** xAxis and yAxis coordinates. */
+	public Double xAxis, yAxis;
 	
 	/**
 	 * Instantiates a new point.
@@ -15,14 +15,14 @@ public class Point {
 	 *	this.x = y; to
 	 *  this.x = x;
 	 *   
-	 *  renamed "x" to width 
-	 *  renamed "y" to length 
+	 *  renamed "x" to xAxis 
+	 *  renamed "y" to yAxis 
 	 *
-	 * @param width the width
-	 * @param length the length
+	 * @param xAxis the x Axis
+	 * @param yAxis the y Axis
 	 */
 	Point(Double x, Double y) {
-		this.width = x;
-		this.length = y;
+		this.xAxis = x;
+		this.yAxis = y;
 	}
 }

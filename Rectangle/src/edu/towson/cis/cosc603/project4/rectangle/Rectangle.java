@@ -32,7 +32,7 @@ public class Rectangle {
 	 */
 	
 	public Double getArea() {
-		return Math.abs((secondPoint.width - firstPoint.width) * (secondPoint.length - firstPoint.length));
+		return Math.abs((secondPoint.xAxis - firstPoint.xAxis) * (secondPoint.yAxis - firstPoint.yAxis));
 	}
 	
 	/**
@@ -41,6 +41,6 @@ public class Rectangle {
 	 * @return the diagonal
 	 */
 	public Double getDiagonal() {
-		return Math.sqrt(Math.pow((secondPoint.width - firstPoint.width), 2) + Math.pow((secondPoint.length - firstPoint.length), 2));
+		return Math.sqrt(Math.pow((secondPoint.xAxis - firstPoint.xAxis), 2) + Math.pow((secondPoint.yAxis - firstPoint.yAxis), 2));
 	}
 }

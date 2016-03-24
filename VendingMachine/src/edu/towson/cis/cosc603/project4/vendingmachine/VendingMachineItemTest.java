@@ -8,8 +8,11 @@ import org.junit.Test;
 
 /**
  * 
- * @author fayvado
- *
+ * @author Bonita Faye Vincent
+ * AIT642
+ * Spring 2016
+ * Project 3
+ * 
  */
 
 /**
@@ -27,9 +30,7 @@ public class VendingMachineItemTest {
 	
 	VendingMachineException myVendingMachineException;
 	
-	
-	
-	
+		
 	/**
 	 * Initializes the necessary test objects for the test caase to use
 	 */	
@@ -68,11 +69,9 @@ public class VendingMachineItemTest {
 	 * Test for the getPrice() method for the VendingMachineItem class
 	 * Price < 0
 	 */	
-	@Test
+	@Test (expected = VendingMachineException.class)
 	public void testVendingMachineException() {
-		myVendingMachineItem3 = new VendingMachineItem ("Soda",-10.0);
-		assertEquals("Price cannot be less than zero",
-		             myVendingMachineException.getMessage());
+        myVendingMachineItem3 = new VendingMachineItem ("Soda",-10.0);
 	}
 	/**
 	 * Cleans up test objects for the test case to use

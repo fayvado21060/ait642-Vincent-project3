@@ -66,7 +66,7 @@ public class VendingMachineItemTest {
 		assertEquals(0.0,myVendingMachineItem2.getPrice(),0.001);
 	}
 	/**
-	 * Test for the getPrice() method for the VendingMachineItem class
+	 * Test for the VendingMachineException class for the VendingMachineItem class
 	 * Price < 0
 	 */	
 	@Test (expected = VendingMachineException.class)

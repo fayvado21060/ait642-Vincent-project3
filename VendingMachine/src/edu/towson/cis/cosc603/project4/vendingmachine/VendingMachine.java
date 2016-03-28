@@ -142,10 +142,13 @@ public class VendingMachine {
 	 * Precondition: amount >= 0
 	 * Postcondition: balance is now the previous balance + amount.
 	 * @param amount The amount of money to put in the vending machine
-	 * @throws VendingMachineException Throws a VendingMachineException if the amount is < 0 
+	 * @throws VendingMachineException Throws a VendingMachineException if the amount is <= 0 
+	 * 
+	 * Changed (amount < 0) to (amount <= 0)  
+	 * 
 	 */
 	public void insertMoney(double amount) throws VendingMachineException {
-		if( amount < 0 )
+		if( amount <= 0 )
 			throw new VendingMachineException(VendingMachine.INVALID_AMOUNT_MESSAGE);
 		this.balance += amount;
 	}

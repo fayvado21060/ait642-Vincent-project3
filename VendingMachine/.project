@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>ait642-Vincent-project3.rtf</name>
+			<type>1</type>
+			<location>C:/Users/fayvado/Documents/AIT 642/ait642-Vincent-project3.rtf</location>
+		</link>
+	</linkedResources>
 </projectDescription>

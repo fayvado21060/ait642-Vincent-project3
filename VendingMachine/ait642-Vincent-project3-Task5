@@ -1,0 +1,34 @@
+Bonita Faye Vincent
+Spring 2016
+AIT 642
+Project 3
+
+What I learned from this project?
+
+	I found this project very challenging but rewarding.  My first challenge was to become more proficient in the Java 
+	programming language and most importantly the Java programming concepts.  Knowing what to test for was not the 
+	difficult decision but how to get the code to correctly evaluate what needed to be tested.  Creating the code to 
+	set up the evaluation was also difficult for me.  Such as declaring the objects within the test case and initializing 
+	the objects to precondition status. I found that if I displayed the object result with the system.print function
+	 it help.  For the first two task, I was able to read through the code and find the bugs.  
+	 I did struggle with testing the throw exception condition but that was remedy with a quick office visit; thanks.  
+
+	Adding the JUnit the Eclipse application was not hard and working with it was pretty easy.  I was able to run the
+ test and debug the incorrect test case when they were not green. I did have to work with changing the different 
+ windows (GitHub, Java, and JUnit).  The more I worked with them the more familiar they became and easier to maneuver.  
+ I learning the abilities/power of the Eclipse editor can be very helpful.  For instance the method suggestions of a 
+ object help with determining what to evaluate in the assert statement. 
+
+
+
+What I liked/disliked about this project?
+
+	I like working with Eclipse application.  Coding with Java IDE allows me to learn Java as I code.  
+	To help me understand the Eclipse application symbols, I printed out an icon glossary.  
+	This was a great help in understanding the symbols in the Package Explorer.  The example of the Coffee
+    Machine that was given in class was very helpful.  I still had to do some research to find the best 
+    way to write my test case but it did put me in the right directions.  
+    
+	My lack of expertise of the Java concepts and syntax is what I do not like about the project but on the
+	upside I am finding that I learning a little more about Java each project.   To offset this, I have googled
+	 for answers and just reread the Java tutorial.  I hoping one day it will stick. 

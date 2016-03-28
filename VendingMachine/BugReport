@@ -1,0 +1,9 @@
+The following bugs were found:
+
+In insertMoney method of the VendingMachine Class
+Line: 150
+Changed (amount < 0) to (amount <= 0)  
+
+In insertMoney method of the VendingMachineItem Class
+Line: 25
+Changed (amount < 0) to (amount <= 0)  

@@ -144,7 +144,7 @@ public class VendingMachine {
 	 * @param amount The amount of money to put in the vending machine
 	 * @throws VendingMachineException Throws a VendingMachineException if the amount is <= 0 
 	 * 
-	 * Changed (amount < 0) to (amount <= 0)  
+	 * Changed (amount < 0) to (amount <= 0)  BFV
 	 * 
 	 */
 	public void insertMoney(double amount) throws VendingMachineException {
